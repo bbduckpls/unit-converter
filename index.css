@@ -23,30 +23,13 @@ h1 {
     font-weight: 700;
     font-size: 58px;
     color: white;
-    text-align: left;
-    width: 70px;
+    text-align: center;
+    width: auto;
     margin-top: 30px; 
     background: none;
     border: 2px solid white;
     border-radius: 5px;
     padding: 3px 10px;
-}
-
-/* remove the arrows from the number input */
-/* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-
-/* Firefox */
-input[type=number] {
-  -moz-appearance: textfield;
-}
-
-input::placeholder {
-    color: #CCC1FF;
 }
 
 button {
@@ -85,4 +68,11 @@ button {
     color: white;
     font-size: 14px;
     font-weight: 400;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

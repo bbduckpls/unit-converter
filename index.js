@@ -11,7 +11,8 @@ const massEl = document.getElementById("mass-el")
 const inputEl = document.getElementById("input-num")
 
 function conversion(unit1, unit2, ratio) {
-    let inputNumber = inputEl.value   
+    let inputNumber = inputEl.innerText   
+    console.log(inputNumber)
     
     const result1 = inputNumber * ratio
     const result2 = inputNumber / ratio
@@ -30,13 +31,3 @@ convertBtn.addEventListener("click", function() {
     volumeEl.innerHTML = volumeConversion
     massEl.innerHTML = massConversion
 })
-
-inputEl.addEventListener("input", resizeInput)
-
-function resizeInput() {
-    inputEl.style.width = inputEl.value.length + "ch";
-}
-
-
-
-
