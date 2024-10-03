@@ -12,10 +12,10 @@ const inputEl = document.getElementById("input-num")
 
 function conversion(unit1, unit2, ratio) {
     let inputNumber = inputEl.innerText   
-    console.log(inputNumber)
-    
+
     const result1 = inputNumber * ratio
     const result2 = inputNumber / ratio
+    
     return `
     ${inputNumber} ${unit1} = ${result1.toFixed(3)} ${unit2} | 
     ${inputNumber} ${unit2} = ${result2.toFixed(3)} ${unit1}
