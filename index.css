@@ -24,7 +24,7 @@ h1 {
     font-size: 58px;
     color: white;
     text-align: left;
-    width: 50px;
+    width: 75px;
     margin-top: 30px; 
     background: none;
     border: 2px solid white;
@@ -40,7 +40,7 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-input::placeholder {
+#input-num::placeholder {
     color: #CCC1FF;
 }
 
